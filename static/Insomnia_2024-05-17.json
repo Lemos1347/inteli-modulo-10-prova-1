@@ -1,0 +1,220 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-05-17T13:53:16.246Z",
+  "__export_source": "insomnia.desktop.app:v9.1.1",
+  "resources": [
+    {
+      "_id": "req_a1098faf4ba846c4b62bc2e931aa670a",
+      "parentId": "wrk_scratchpad",
+      "modified": 1715953954149,
+      "created": 1713739197491,
+      "url": "http://localhost:3001/pedidos/7509b269-f41e-44cd-953f-5200d7070b30",
+      "name": "Deletar pedido",
+      "description": "",
+      "method": "DELETE",
+      "body": { "mimeType": "application/json", "text": "" },
+      "preRequestScript": "",
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "insomnia/8.6.1" }
+      ],
+      "authentication": {
+        "type": "apikey",
+        "disabled": true,
+        "key": "Authorization",
+        "value": "03fd5486-2030-47cf-bf14-0e569d64fad9",
+        "addTo": "header"
+      },
+      "metaSortKey": -1713739197491,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_scratchpad",
+      "parentId": null,
+      "modified": 1713738793336,
+      "created": 1713738793336,
+      "name": "Scratch Pad",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_d13011bfbf81499ab5d644bf38dec909",
+      "parentId": "wrk_scratchpad",
+      "modified": 1715953937020,
+      "created": 1713739138712,
+      "url": "http://localhost:3001/pedidos/7509b269-f41e-44cd-953f-5200d7070b30",
+      "name": "Atualizar pedido",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"description\": \"Nova descricao\"\n}"
+      },
+      "preRequestScript": "",
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "insomnia/8.6.1" }
+      ],
+      "authentication": {
+        "type": "apikey",
+        "disabled": true,
+        "key": "Authorization",
+        "value": "03fd5486-2030-47cf-bf14-0e569d64fad9",
+        "addTo": "header"
+      },
+      "metaSortKey": -1713739138712,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_dd5213ca036740eaa6cecbcb23064440",
+      "parentId": "wrk_scratchpad",
+      "modified": 1715953921411,
+      "created": 1713739092961,
+      "url": "http://localhost:3001/pedidos/7509b269-f41e-44cd-953f-5200d7070b30",
+      "name": "Pegar pedido por id",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "preRequestScript": "",
+      "parameters": [],
+      "headers": [{ "name": "User-Agent", "value": "insomnia/8.6.1" }],
+      "authentication": {
+        "type": "apikey",
+        "disabled": true,
+        "key": "Authorization",
+        "value": "03fd5486-2030-47cf-bf14-0e569d64fad9",
+        "addTo": "header"
+      },
+      "metaSortKey": -1713739092961,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_b55da3677d044fe7bad08be8b09406b1",
+      "parentId": "wrk_scratchpad",
+      "modified": 1715953682816,
+      "created": 1713739032646,
+      "url": "http://localhost:3001/pedidos",
+      "name": "Pegar todos os pedidos",
+      "description": "",
+      "method": "GET",
+      "body": { "mimeType": "application/json", "text": "" },
+      "preRequestScript": "",
+      "parameters": [],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "insomnia/8.6.1" }
+      ],
+      "authentication": {
+        "type": "apikey",
+        "disabled": true,
+        "key": "Authorization",
+        "value": "03fd5486-2030-47cf-bf14-0e569d64fad9",
+        "addTo": "header"
+      },
+      "metaSortKey": -1713739032646,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_a219d7e1e8bb4e33af54b32c55600052",
+      "parentId": "wrk_scratchpad",
+      "modified": 1715953651460,
+      "created": 1713738904539,
+      "url": "http://localhost:3001/novo",
+      "name": "Criar pedido",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"user_name\": \"Murilo\",\n  \"user_email\": \"murilo@email.com\",\n  \"description\": \"Meu pedido\"\n}"
+      },
+      "preRequestScript": "",
+      "parameters": [
+        {
+          "id": "pair_dca363a80db647b6816639db4f54960c",
+          "name": "",
+          "value": "",
+          "description": ""
+        }
+      ],
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" },
+        { "name": "User-Agent", "value": "insomnia/8.6.1" }
+      ],
+      "authentication": {
+        "type": "apikey",
+        "disabled": true,
+        "key": "Authorization",
+        "value": "03fd5486-2030-47cf-bf14-0e569d64fad9",
+        "addTo": "header"
+      },
+      "metaSortKey": -1713738904539,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_99d30891da4bdcebc63947a8fc17f076de878684",
+      "parentId": "wrk_scratchpad",
+      "modified": 1713738846990,
+      "created": 1713738846990,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1713738846990,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_99d30891da4bdcebc63947a8fc17f076de878684",
+      "parentId": "wrk_scratchpad",
+      "modified": 1713738846999,
+      "created": 1713738846999,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
